@@ -3,5 +3,5 @@ fn main() {
 
     let a_ptr = &a as *const i64;
 
-    println!("a: {} {{:p}}", a ,a_ptr);
+    println!("a: {} ({:p})", a ,a_ptr);
 }
