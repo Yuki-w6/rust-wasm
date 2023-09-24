@@ -1,1 +1,1 @@
-# rust-wasm
+# rust-study
