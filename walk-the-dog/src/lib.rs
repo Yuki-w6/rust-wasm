@@ -39,7 +39,7 @@ pub fn main_js() -> Result<(), JsValue> {
         let (success_tx, success_rx) = futures::channel::oneshot::channel::<Result<(), JsValue>>();
         let success_tx = Rc::new(Mutex::new(Some(success_tx)));
         let error_tx = Rc::clone(&success_tx);
-        let image = web_sys::HtmlImageElement::new().unwrap();
+        let image: web_sys::HtmlImageElement = web_sys::HtmlImageElement::new().unwrap();
 
         let callback = Closure::once(move || {
             if let Some(success_tx) = success_tx.lock().ok().and_then(|mut opt| opt.take()) {
@@ -69,6 +69,15 @@ pub fn main_js() -> Result<(), JsValue> {
     });
     
     Ok(())
+}
+
+async fn fetch_json(json_path: &str) -> Result<JsValue, JsValue> {
+    let window = web_sys::window().unwrap();
+    let resp_value = wasm_bindgen_futures::JsFuture::from(
+        window.fetch_with_str(&"rhb.json")).await?;
+    let resp: web_sys::Response = resp_value.dyn_info()?;
+
+    wasm_bindgen_futures::JsFuture::from(resp.json()?).await
 }
 
 fn draw_triangle(context: &web_sys::CanvasRenderingContext2d, points: [(f64, f64); 3], color: (u8, u8, u8)) {
