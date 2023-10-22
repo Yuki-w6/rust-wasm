@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  rust-study:
+    build: .
+    volumes:
+      - .:/usr/src/.
