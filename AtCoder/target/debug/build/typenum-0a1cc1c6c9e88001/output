@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_OP=/workspaces/rust_study/rust_study/AtCoder/target/debug/build/typenum-0a1cc1c6c9e88001/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/workspaces/rust_study/rust_study/AtCoder/target/debug/build/typenum-0a1cc1c6c9e88001/out/op.rs
