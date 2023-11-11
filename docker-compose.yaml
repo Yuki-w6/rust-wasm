@@ -4,4 +4,4 @@ services:
   rust-study:
     build: .
     volumes:
-      - .:/usr/src/.
+      - .:/usr/src/rust_study
