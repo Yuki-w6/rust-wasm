@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  workspace:
+    build:
+      context: ./dockerfiles/workspace
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/mnt
+      - vscext:/home/developer/.vscode-server/extensions
+    networks:
+      - default
+      - bonet
+
+  rust-study:
+    build:
+      context: ./dockerfiles/rust_study
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/mnt
+    networks:
+      - bonet
+
+volumes:
+  vscext:
+networks:
+  bonet:
+    external: true
