@@ -1,0 +1,12 @@
+/mnt/rust_study/hello/target/debug/deps/assert_cmd-94aeb3e4e86addcb.rmeta: /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/lib.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/assert.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/cargo.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/cmd.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/output.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/../README.md
+
+/mnt/rust_study/hello/target/debug/deps/libassert_cmd-94aeb3e4e86addcb.rlib: /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/lib.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/assert.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/cargo.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/cmd.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/output.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/../README.md
+
+/mnt/rust_study/hello/target/debug/deps/assert_cmd-94aeb3e4e86addcb.d: /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/lib.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/assert.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/cargo.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/cmd.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/output.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/../README.md
+
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/lib.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/assert.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/cargo.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/cmd.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/output.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/assert_cmd-1.0.8/src/../README.md:
