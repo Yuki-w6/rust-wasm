@@ -7,8 +7,8 @@ fn main() {
     }
 
     if a * b % 2 == 0 {
-        println!("{}", "Even");
+        println!("Even");
     } else {
-        println!("{}", "Odd");
+        println!("Odd")
     }
 }
