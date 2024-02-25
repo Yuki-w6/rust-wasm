@@ -19,14 +19,7 @@ fn main() {
         )
         .get_matches();
 
-        let text = matches.values_of_lossy("text").unwrap();
-        let omit_newline = matchs.is_present("omit_newline");
-
-        let ending = "\n";
-        if omit_newline {
-            ending = "";
-        }
-        print!("{}{}", text.join(" "), ending);
-    
-    println!("{:#?}", matches);
+    let text = matches.values_of_lossy("text").unwrap();
+    let omit_newline = matches.is_present("omit_newline");
+    print!("{}{}", text.join(" "), if omit_newline {""} else {"\n"});   
 }
