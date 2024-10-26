@@ -1,5 +1,5 @@
 {
-	"name": "devcontainer",
+	"name": "rust_study",
 	"dockerComposeFile": [
 		"../docker-compose.yml",
 		"docker-compose.yml"
@@ -10,13 +10,13 @@
 		"vscode": {
 			"extensions": [
 				"ms-azuretools.vscode-docker",
-        		"ms-vsliveshare.vsliveshare-pack",
-        		"eamodio.gitlens",
-        		"GitHub.vscode-pull-request-github",
-        		"dbaeumer.vscode-eslint",
-        		"octref.vetur",
-        		"dariofuzinato.vue-peek",
-        		"esbenp.prettier-vscode"
+				"ms-vsliveshare.vsliveshare-pack",
+				"eamodio.gitlens",
+				"GitHub.vscode-pull-request-github",
+				"dbaeumer.vscode-eslint",
+				"octref.vetur",
+				"dariofuzinato.vue-peek",
+				"esbenp.prettier-vscode"
 			]
 		}
 	}

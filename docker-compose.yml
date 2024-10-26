@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   workspace:
     build:
@@ -10,7 +8,6 @@ services:
       - vscext:/home/developer/.vscode-server/extensions
     networks:
       - default
-      - bonet
 
   rust-study:
     build:
@@ -19,10 +16,7 @@ services:
     volumes:
       - ./:/mnt
     networks:
-      - bonet
+      - default
 
 volumes:
   vscext:
-networks:
-  bonet:
-    external: true
